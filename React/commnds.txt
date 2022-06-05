@@ -1,0 +1,24 @@
+
+<!-- initial setups  -->
+
+1. npx create-react-app name --template typescript
+ cd into dir
+2. npm install -D tailwindcss postcss autoprefixer 
+3. npm install react-router-dom @types/react-router-dom @headlessui/react @heroicons/react  
+4. npx taiwindcss init -p
+5. in tailwind.config.js 
+    module.exports = {
+        content: [
+            "./src/**/*.{js,jsx,ts,tsx}",
+        ],
+        theme: {
+            extend: {},
+        },
+        plugins: [],
+    }
+6. in index.css
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+7. npm run start :)
